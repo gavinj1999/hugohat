@@ -1,0 +1,7 @@
+<section id="top" style="background-image:linear-gradient(45deg,rgba(0, 126, 255, 0.3),rgba(0, 255, 149, 0.3)), url({{.Params.headerImage | default .Site.Params.headerImage}})" class="row align-items-center">
+<div class="text-center text-white col-12 d-table-cell align-middle">
+
+<h1>{{ .Site.Title | safeHTML }}</h1>
+<a id="sender" href="#" class="btn btn-primary">{{.Params.ctaButton | default .Site.Params.ctaButton}} »</a>
+</div>
+</section>

@@ -1,0 +1,15 @@
+{{ range $index, $slides := .Site.Params.product}}
+{{ $active := "" }}
+    {{ if eq $index 0 }}
+      {{ $active = "active" }}
+    {{ end }}
+        <div class="carousel-item {{ $active }}">
+          <div class="row">
+            <div class="col-md-8">
+              <h3>{{ .slideHeadline}}</h3>
+              {{ .slideText | safeHTML}}
+            </div>
+            <img src="{{ .slideImage }}" class="img-fluid col-md-4" alt="{{ .alt }}">
+          </div>
+        </div>
+{{ end }}

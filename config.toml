@@ -1,0 +1,54 @@
+# NOTES
+# ALL TEXT MUST STAY ON ONE LINE OTHERWISE IT WILL FAIL
+# INSTRUCTIONS
+
+# Set all variables below
+# header image in the static/upload folder
+# Open Terminal, go to the folder where this is stored
+#
+# Run the command
+#
+# hugo -b https://<site url> -D -d <output folder>
+# eg.
+# hugo -b https://toplist-canada.com/ -D -d <output folder>
+# upload to web server
+
+#javascript obfuscated at https://obfuscator.io/
+
+
+baseURL = "https://canadian-top.com/"
+languageCode = ""
+title = "TOP LIST 2019 <br> GAMES IN CANADA"
+theme = "chapnoir"
+
+
+[params]
+ctaButton = "See Toplist"
+siteMetaTitle = "The Best Gaming Consoles of 2019"
+siteMetaDescription = ""
+headerImage = "upload/video-games-wallpaper.jpg"
+headerText = "<h2>The Best Gaming Consoles in Canada 2019</h2>"
+headerParagraph = "<p>Here you will find the best consoles for gaming in Canada, at the lowest prices. Buy your new consoles online and save a couple of bucks!</p>"
+
+
+[[params.product]]
+slideHeadline = "Xbox One X"
+slideText = "<p>Xbox One X is the most powerful console on the market. Experience smooth 4K gaming and enhanced graphics. The Xbox One is the only console on the market with a 4K UHD player.</p><p>Games work better with the Xbox One X. It has 40% more power than other consoles, providing an immersive 4K gaming experience.</p>"
+slideImage = "upload/xbox-one-x.jpg"
+slideUrl = "https://www.amazon.ca/Xbox-One-1TB-Console-Division/dp/B07NHNPV12/"
+alt = "Xbox One X"
+
+[[params.product]]
+slideHeadline = "PlayStation 4 Pro"
+slideText = "<p>The PS4 games come alive with incredibly sharp graphics, fantastic colors and even more stable action.</p><p>All PS4 games can be played on a PS4 Pro for at least 1080p. Some games already have PS4 Pro features, and the graphics and performance of other games are improved.</p>"
+slideImage = "upload/ps4-pro.jpg"
+slideUrl = "https://www.amazon.ca/PlayStation-Pro-1TB-Console/dp/B01LOP8EZC/"
+alt = "PlayStation 4 Pro"
+
+
+[[params.product]]
+slideHeadline = "Nintendo Switch"
+slideText = "<p>Innovative Nintendo Switch can be played anywhere and in a variety of ways. The two removable Joy-Con controls allow Switch to be used both as a handheld device and as a hand control. When in free mode, you can either play with both controls individually, connect them to a single device, or play with a friend. The docking device can also be connected to your TV just like a regular console.</p>"
+slideImage = "upload/nintendo-switch.jpg"
+slideUrl = "https://www.amazon.ca/Nintendo-Switch-with-Gray-Joy%E2%80%91Con/dp/B07VJRZ62R/"
+alt = "Nintendo Switch"
