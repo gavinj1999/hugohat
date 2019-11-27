@@ -13,7 +13,7 @@
 # hugo -b https://toplist-canada.com/ -D -d <output folder>
 # upload to web server
 
-#javascript obfuscated at https://obfuscator.io/
+#javascript  obfuscated at https://obfuscator.io/
 
 
 baseURL = "https://canadian-top.com/"
